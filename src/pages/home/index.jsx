@@ -225,7 +225,7 @@ function Home() {
 
             <Box>
                 <Container>
-                    <Box sx={{ mb: "80px  ", mt: "60px" }}>
+                    <Box sx={{ mb: "00px  ", mt: "10px" }}>
                         <Typography sx={{
                             fontSize: "40px",
                             fontFamily: "Playfair Display",
@@ -239,7 +239,9 @@ function Home() {
                     </Box>
                 </Container>
             </Box>
-            <Box>
+            <Box sx={{
+                p:"50px 0"
+            }}>
                 <Container>
                     <Carousel breakPoints={breakPoints} autoPlaySpeed={3500}>
 
@@ -259,9 +261,10 @@ function Home() {
                 </Container>
             </Box>
             <Box sx={{
-                background: "#f8f9fa"
+                background: "#f8f9fa",
+                p:"50px 0"
             }}>
-                <Box sx={{ mb: "80px  ", mt: "60px" }}>
+                <Box sx={{ mb: "80px  ", mt: "10px" }}>
                     <Typography sx={{
                         fontSize: "40px",
                         fontFamily: "Playfair Display",
