@@ -6,6 +6,7 @@ import { Caro, Datta, Fara, img, Marga } from './map'
 import "./style.css"
 import { HiArrowSmRight } from "react-icons/hi";
 import Carousel from "react-elastic-carousel";
+import Carousell from './map/shsh'
 
 function Home() {
 
@@ -26,25 +27,10 @@ function Home() {
 
     return (
         <Box>
-            <Box id='CONTACTBoshsurat1'>
-                <Box sx={{
-                    background: 'rgba(0, 0, 0, 0.4)',
-                    width: '100%',
-                    height: '100%',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    textAlign: 'center'
-                }}>
-                    <Box>
-                        <Typography id='CONTACTBoshsurat31' sx={{maxWidth:{lg:"500px",md:"500px",sm:"500px", xs:"300px"}, fontWeight:"500", fontSize:{lg:"64px", md:"64px", sm:"64px", xs:"50px"}}}>
-                          Welcome to Suites
-                        </Typography>
-                        <Typography id='CONTACTBoshsurat2' >
-                            HOTEL & RESORT
-                        </Typography>
-                    </Box>
-                </Box>
+            
+
+            <Box>
+                <Carousell/>
             </Box>
             <Box sx={{ width: "100%", height: "auto", background: "#f8f9fa", p: "0 0 80px 0" }}>
                 <Container>

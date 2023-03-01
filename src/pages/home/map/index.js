@@ -21,6 +21,19 @@ import person3 from "../../../img/person_3.jpg.webp"
 import person4 from "../../../img/person_4.jpg.webp"
 
 
+
+export const CAroo =[
+    {
+        id:"1",
+        name:"Welcome to Suites",
+        text:"HOTEL & RESORT",
+        rasm:iiii
+    }
+]
+
+
+
+
 export const Fara=[
     {
         id:"1",
