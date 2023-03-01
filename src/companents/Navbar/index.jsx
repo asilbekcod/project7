@@ -45,7 +45,7 @@ function ResponsiveAppBar() {
                         <ClearIcon sx={{ fontSize: "30px" }} />
                     </Typography>
                     <Typography className='apbuu'>
-                        <Link to="/home"  className='aplii' style={{ color: "#212529" }}>
+                        <Link to="/"  className='aplii' style={{ color: "#212529" }}>
                             Home
                         </Link>
                     </Typography>
@@ -221,7 +221,7 @@ function ResponsiveAppBar() {
                     </Box>
                     <Box className='apmeu' sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Typography className='apbu'>
-                            <Link to="/home" className='apli' style={{ color: navFo }}>
+                            <Link to="/" className='apli' style={{ color: navFo }}>
                                 HOME
                             </Link>
                         </Typography>
